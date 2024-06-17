@@ -3,3 +3,5 @@ const Order = prompt (
   "vanilla,vanilla,vanilla,coffee,coffee,strawberry"
 );
 console.log(Order);
+const ordersArr = Order.split(",");
+console.log(ordersArr);
